@@ -1,2 +1,2 @@
-gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker
+gunicorn main:app -k uvicorn.workers.UvicornWorker
 
