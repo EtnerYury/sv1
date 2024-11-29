@@ -283,6 +283,10 @@ import os
 
 app = FastAPI()
 
+@app.get("/health/")
+async def health():
+    return {"status": "ok"}
+
 @app.post("/classify/")
 async def classify(file: UploadFile = File(...)):
     try:
