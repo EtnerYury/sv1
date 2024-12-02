@@ -8,3 +8,4 @@ scikit-learn
 mahotas
 onnxruntime
 gunicorn
+python-multipart
